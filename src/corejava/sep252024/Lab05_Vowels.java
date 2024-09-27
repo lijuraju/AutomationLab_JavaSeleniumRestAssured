@@ -2,7 +2,8 @@ package corejava.sep252024;
 
 public class Lab05_Vowels {
     public static void main(String[] args) {
-        String str = "liju";
+        String str = "Liju Raju";
+        System.out.println(str.length());
         int count =0;
         int consonants =0;
 
@@ -12,7 +13,10 @@ public class Lab05_Vowels {
             if(s == 'a' || s == 'e' || s == 'i' || s == 'o' || s == 'u')
             {
                 count++;
+            } else if (s == ' ') {
+                continue;
             }
+
             else
                 consonants++;
 
