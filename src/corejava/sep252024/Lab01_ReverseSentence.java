@@ -12,7 +12,7 @@ public class Lab01_ReverseSentence {
 //        sc.close();
 
         String input = "Hello World";
-        input = input.replaceAll("\\s","");
+        //input = input.replaceAll("\\s","");
         System.out.println("Input Sentence: " + input);
 
         String reversed = "";

@@ -1,15 +1,11 @@
-package corejava.sep252024;
+package corejava.sep282024;
 
-public class Lab04_Primenumber {
+
+public class Task01_Primenumber1to3o {
     public static void main(String[] args) {
 
-        int n =2;
-        System.out.println(Math.sqrt(3));
-
-
         for (int i = 1; i <= 30; i++) {
-
-            if (isPrime(i)) {
+            if (isPrimeCheck(i)) {
                 System.out.println("Prime: " + i);
             } else {
                 System.out.println("Not Prime: " + i);
@@ -17,11 +13,11 @@ public class Lab04_Primenumber {
         }
     }
 
-    private static boolean isPrime(int num) {
+    private static boolean isPrimeCheck(int num) {
         if (num <= 1) {
             return false;
         }
-        for (int i = 2; i <= num/2; i++) {
+        for (int i = 2; i < num / 2; i++) {
             if (num % i == 0) {
                 return false;
             }
@@ -29,3 +25,7 @@ public class Lab04_Primenumber {
         return true;
     }
 }
+
+
+
+

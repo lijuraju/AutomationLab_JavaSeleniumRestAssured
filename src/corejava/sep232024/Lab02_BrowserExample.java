@@ -7,7 +7,7 @@ public class Lab02_BrowserExample {
 
         switch (browser)
         {
-            case "Chrome" ->System.out.println("Chrome is seected");
+            case "Chrome" -> System.out.println("Chrome is seected");
 
             case "Firefox" -> System.out.println("Firefox");
 
