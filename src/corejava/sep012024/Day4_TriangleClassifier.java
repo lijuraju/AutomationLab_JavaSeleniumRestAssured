@@ -1,4 +1,4 @@
-package corejava;
+package corejava.sep012024;
 
 import java.util.Scanner;
 

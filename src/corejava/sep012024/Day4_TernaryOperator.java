@@ -1,4 +1,4 @@
-package corejava;
+package corejava.sep012024;
 
 public class Day4_TernaryOperator {
     public static void main(String[] args) {

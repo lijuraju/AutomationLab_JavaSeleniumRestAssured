@@ -1,6 +1,4 @@
-package corejava;
-
-import java.io.File;
+package corejava.sep012024;
 
 public class Day3 {
     public static void main(String[] args) {
