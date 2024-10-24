@@ -21,9 +21,9 @@ public class LoginPage {
         String baseUrl = "https://www.demo.guru99.com/V4/";
         driver.get(baseUrl);
         WebElement username = driver.findElement(By.xpath("//input[@name='uid']"));
-        username.sendKeys("UserId");
+        username.sendKeys("mngr936");
         WebElement password = driver.findElement(By.xpath("//input[@name='password']"));
-        password.sendKeys("Password");
+        password.sendKeys("YgEqUnY");
         WebElement login = driver.findElement(By.xpath("//input[@name='btnLogin']"));
         login.click();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
