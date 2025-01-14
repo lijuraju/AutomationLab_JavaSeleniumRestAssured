@@ -12,7 +12,6 @@ import java.util.List;
 public class ArraylIst_Ex1 {
     public static void main(String[] args) {
 
-        WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
         driver.get("https://the-internet.herokuapp.com/tables");
         List<WebElement> rows =driver.findElements(By.xpath("//table[@id='table1']/tbody/tr"));
