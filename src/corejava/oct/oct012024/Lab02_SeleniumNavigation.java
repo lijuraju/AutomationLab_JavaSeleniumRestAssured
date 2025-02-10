@@ -2,17 +2,16 @@ package corejava.oct.oct012024;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
 
 public class Lab02_SeleniumNavigation {
 
-    public static void main(String[] args) {
+    @Test
+    public void testSeleniumNavigation() {
 
-        //1. Open the Chrome Browser
-        System.setProperty("webdriver.chrome.driver",
-                "C://chrome_driver//chromedriver-win64//chromedriver.exe");
-        WebDriver driver = new ChromeDriver();
+            WebDriver driver = new ChromeDriver();
 
         //Open the URL
         driver.get("https://www.google.com");
